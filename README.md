@@ -158,24 +158,18 @@ typedef struct s_list
 	void *content;
 	struct s_list *next;
 } t_list;
-
-## 🔗 Listas encadeadas (bonus)
-
 Funções:
 
-- ft_lstnew
-- ft_lstadd_front
-- ft_lstsize
-- ft_lstlast
-- ft_lstadd_back
-- ft_lstdelone
-- ft_lstclear
-- ft_lstiter
-- ft_lstmap
-
----
-
-# 🧪 Compilação
+ft_lstnew
+ft_lstadd_front
+ft_lstsize
+ft_lstlast
+ft_lstadd_back
+ft_lstdelone
+ft_lstclear
+ft_lstiter
+ft_lstmap
+🧪 Compilação
 
 Para compilar a biblioteca:
 
@@ -197,69 +191,55 @@ Para recompilar do zero:
 
 make re
 
----
-
-# 📚 Dependências importantes
+📚 Dependências importantes
 
 Algumas funções são base para outras:
 
-- ft_strlen → base para várias funções de string  
-- ft_memcpy → base para cópias de memória  
-- ft_calloc → base para alocação segura  
+ft_strlen → base para várias funções de string
+ft_memcpy → base para cópias de memória
+ft_calloc → base para alocação segura
 
 Se essas funções estiverem incorretas, várias outras falham em cascata.
 
----
-
-# 🧠 Conceitos fundamentais
-
-## Stack vs Heap
-
-Stack: memória automática  
+🧠 Conceitos fundamentais
+Stack vs Heap
+Stack: memória automática
 Heap: memória dinâmica (malloc/free)
-
----
-
-## NULL vs '\0'
-
-NULL → ponteiro nulo  
+NULL vs '\0'
+NULL → ponteiro nulo
 '\0' → fim de string
-
----
-
-## memcpy vs memmove
-
-memcpy → não trata sobreposição  
+memcpy vs memmove
+memcpy → não trata sobreposição
 memmove → seguro para sobreposição
-
----
-
-# 🚀 Conclusão
+🚀 Conclusão
 
 A Libft é a base de toda a formação na 42.
 
 Ela consolida conhecimentos fundamentais como:
 
-- Manipulação de memória
-- Ponteiros
-- Strings
-- Estruturas de dados
-- Alocação dinâmica
+Manipulação de memória
+Ponteiros
+Strings
+Estruturas de dados
+Alocação dinâmica
 
 Todo o restante da formação se constrói sobre esse projeto.
 
----
+📌 Recursos
+Documentação utilizada
+man 3 libc
+documentação oficial da linguagem C
+padrões POSIX
+Uso de IA
 
-# 📌 Recursos
+A IA foi utilizada exclusivamente para:
 
-## Documentação utilizada
+revisão de lógica
+organização de conteúdo
+explicação de conceitos
 
-- man 3 libc  
-- documentação oficial da linguagem C  
-- padrões POSIX  
+Todo o código foi implementado manualmente pelo autor.
 
----
-
-## 👨‍💻 Autor
+👨‍💻 Autor
 
 rayperei — 42 School
