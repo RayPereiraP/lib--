@@ -1,5 +1,7 @@
 # 📚 Libft - 42 School
 
+*Este projeto foi criado como parte do currículo 42 por rayperei.*
+
 <div align="center">
 
 ![42](https://img.shields.io/badge/42-Libft-blue)
